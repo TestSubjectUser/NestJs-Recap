@@ -1,4 +1,4 @@
-version: "3.8"
+version: '3.8'
 services:
   dev-db:
     image: postgres:13
@@ -12,3 +12,6 @@ services:
       - freecodecamp
 networks:
   freecodecamp:
+# .ENV
+# DATABASE_URL="postgresql://postgres:123@localhost:5434/nest?schema=public"
+# JWT_SECRET="secret"
