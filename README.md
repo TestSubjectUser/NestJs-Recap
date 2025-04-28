@@ -114,3 +114,4 @@ Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
   prisma migrate dev
 - docker compose rm --help
 - yarn add @nestjs/config
+- yarn add -D pactum
