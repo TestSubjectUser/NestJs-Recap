@@ -115,3 +115,5 @@ Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
 - docker compose rm --help
 - yarn add @nestjs/config
 - yarn add -D pactum
+- yarn add -D dotenv-cli
+- npx dotenv -e .env.test -- prisma studio (to connect with test env DB)
